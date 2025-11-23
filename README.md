@@ -1,40 +1,57 @@
-# vityarthi_expense_tracker
-Personal Expense Tracker – Python
 
-A simple console-based application that helps users record and analyze daily expenses. Built using basic Python concepts such as functions, lists, dictionaries, validation, and file handling.
+Personal Expense Tracker (Python Console Application)
+
+
+
+Overview of the Project
+
+A simple Python-based console application that allows users to record, view, and analyze their daily expenses.
+The program uses a text file for permanent storage and provides summaries, category filtering, and basic analytics.
+It is designed for first-year students to practice modular programming, validation, file handling, and logical workflows.
 
 Features
 
-Add new expenses
+* Add a new expense (date, category, amount, note)
+* View all expenses in a formatted table
+* Search expenses by category
+* Monthly spending summary
+* Overall analytics (total + category breakdown + highest category)
+* Automatic saving to expenses.txt
+* Safe input validation for amount, date, year, and month
 
-View all expenses
+  
+Technologies / Tools Used
 
-Search by category
+* Python 3** (Core language)
+* Text File Storage** (expenses.txt)
+* Basic Python modules: functions, lists, dictionaries, loops
+* File handling (open, read, write)
+* Manual testing through terminal
 
-Monthly spending summary
+# Steps to Install & Run the Project
 
-Overall analytics (totals & top category)
+1. Download or place all project files in a single folder.
+2. Ensure Python 3 is installed on your system.
+3. Open a terminal or VS Code terminal in the project folder.
+4. Run the program using:
 
-Data saved permanently in expenses.txt
+   bash
+   python main.py
+   
+5. Use the numbered menu to navigate through the features.
+6. expenses.txt will be created automatically for saving data.
 
-HOW TO RUN:
-     py main.py
+#  Instructions for Testing
 
-PROJECT STRUCTURE
-main.py        – Program entry point  
-menu.py        – Menu and user interaction  
-expenses.py    – Add/filter expenses  
-reports.py     – Summaries & analytics  
-validation.py  – Input checks  
-formatting.py  – Table display  
-storage.py     – File load/save  
-expenses.txt   – Saved data
+* Add multiple expenses and verify the table updates correctly.
+* Test invalid inputs (letters instead of numbers, wrong dates) to check validation.
+* Try searching by different categories.
+* Generate monthly summaries for months with and without data.
+* Exit the program and re-run it to ensure data loads from expenses.txt
+* Open expenses.txt to confirm entries are saved correctly.
 
-Requirements
-Python 3
 
-No external libraries
 
-Author
+# Screenshots (Optional)
 
-SHIVANSH KADAM – Int M.Tech CSE(computational data science) (1st Year)
+
