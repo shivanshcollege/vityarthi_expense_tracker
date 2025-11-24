@@ -52,6 +52,4 @@ Technologies / Tools Used
 
 
 
-# Screenshots (Optional)
-
 
